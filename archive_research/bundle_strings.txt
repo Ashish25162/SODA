@@ -1,0 +1,4 @@
+React has blocked a javascript: URL as a security precaution.
+A React form was unexpectedly submitted. If you called form.submit() manually, consider using form.requestSubmit() instead. If you\\
+No `HydrateFallback` element provided to render during initial hydration
+Swiper Loop Warning: Loop mode is not compatible with grid.fill = `row`

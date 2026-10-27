@@ -1,51 +1,64 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
-        // Cream Scale (Base Surfaces & Backgrounds — 60%)
-        'cream-1': 'var(--bg-1)',
-        'cream-2': 'var(--bg-2)',
-        'cream-3': 'var(--bg-3)',
-        'cream-4': 'var(--bg-4)',
-
-        // Naval Ink Scale (Headings, Body Text & Deep Surfaces — 30%)
-        'ink': 'var(--ink)',
-        'ink-2': 'var(--ink-2)',
-        'ink-3': 'var(--ink-3)',
-        'ink-4': 'var(--ink-4)',
-        'navy-1': 'var(--navy-1)',
-        'navy-2': 'var(--navy-2)',
-        'navy-3': 'var(--navy-3)',
-
-        // Officer Accents & Badges (The 10% Pop)
-        'gold': 'var(--gold)',
-        'gold-2': 'var(--gold-2)',
-        'gold-dim': 'var(--gold-dim)',
-        'olive': 'var(--olive)',
-        'olive-2': 'var(--olive-2)',
-        'red': 'var(--red)',
-      },
-      borderColor: {
-        'tactical': 'var(--b)',
-        'tactical-2': 'var(--b-2)',
-        'tactical-gold': 'var(--b-gold)',
-        'tactical-dark': 'var(--b-dark)',
+        cream: {
+          1: '#F8FAFC',
+          2: '#FFFFFF',
+          3: '#F1F5F9',
+          4: '#E2E8F0',
+        },
+        navy: {
+          1: '#0A192F',
+          2: '#060F1E',
+          3: '#0F2544',
+          950: '#060F1E',
+          900: '#0A192F',
+          800: '#112240',
+          700: '#1B355B',
+        },
+        ink: {
+          DEFAULT: '#0A192F',
+          2: '#1E293B',
+          3: '#475569',
+          4: '#64748B',
+        },
+        gold: {
+          DEFAULT: '#D97706',
+          2: '#B45309',
+          dim: '#92400E',
+          bright: '#F59E0B',
+          brass: '#C9A961',
+        },
+        olive: {
+          DEFAULT: '#3F6212',
+          2: '#365314',
+          600: '#3F6212',
+          500: '#4D7C0F',
+          badge: '#ECFCCB',
+        },
+        red: {
+          DEFAULT: '#DC2626',
+          signal: '#B91C1C',
+        },
       },
       fontFamily: {
-        // Universal regular sans typography throughout the platform
-        sans: ['"Inter Tight"', 'Inter', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
-        mono: ['"JetBrains Mono"', '"IBM Plex Mono"', 'monospace'],
-        handwriting: ['Caveat', 'cursive'],
+        sans: ['"Inter"', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'],
+        heading: ['"Plus Jakarta Sans"', '"Inter"', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
       },
-      boxShadow: {
-        'parchment': '0 4px 20px -2px rgba(10, 20, 40, 0.05)',
-        'dossier': '0 10px 30px -5px rgba(8, 18, 42, 0.08), 0 0 0 1px rgba(10, 20, 40, 0.08)',
-        'dossier-dark': '0 20px 40px -10px rgba(5, 11, 22, 0.6), 0 0 0 1px rgba(244, 239, 230, 0.08)',
-        'gold-glow': '0 0 20px rgba(201, 169, 97, 0.25)',
-      },
+      borderColor: {
+        line: 'rgba(10, 25, 47, 0.08)',
+        'line-light': 'rgba(10, 25, 47, 0.14)',
+        'line-gold': 'rgba(217, 119, 6, 0.35)',
+        'line-dark': 'rgba(248, 250, 252, 0.12)',
+      }
     },
   },
   plugins: [],
-};
+}

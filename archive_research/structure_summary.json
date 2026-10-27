@@ -1,0 +1,253 @@
+{
+  "bundle.js": {
+    "length": 489787,
+    "links": [
+      "/courses/cds",
+      "/blog/${e.slug&&e.slug.trim()||e.id}",
+      "https://wa.me/918433247664",
+      "/",
+      "/current-affairs",
+      "/calculator",
+      "https://www.google.com/search?q=sabre+officers+defense+academy+reviews",
+      "https://www.facebook.com/share/1S62THtqmB/",
+      "/refund-and-cancellation-policy",
+      "/courses/nda",
+      "/privacy-policy",
+      "https://t.me/sabreofficersdefenceacademy",
+      "https://youtube.com/@sabreacademy",
+      "/courses/afcat",
+      "/courses",
+      "/about",
+      "/courses/foundation",
+      "https://kartgen.in",
+      "/courses/capf",
+      "https://www.instagram.com/sabreacademy.ssb",
+      "https://play.google.com/store/apps/details?id=com.ajmyig.nfiuah",
+      "/terms-and-conditions",
+      "/disclaimer",
+      "/courses/ssb",
+      "/contact",
+      "/blog"
+    ],
+    "sample_objects": [
+      "{e.name=``,o!=null&&typeof o!=`function`&&typeof o!=`symbol`&&typeof o!=`boolean`?e.type=o:e.removeAttribute(`type`),t==null?o!==`submit`&&o!==`reset`||e.removeAttribute(`value`):o===`number`?(t===0&&e.value===``||e.value!=t)&&(e.value=``+It(t)):e.value!==``+It(t)&&(e.value=``+It(t)),t==null?n==null?r!=null&&e.removeAttribute(`value`):Kt(e,o,It(n)):Kt(e,o,It(t)),i==null&&a!=null&&(e.defaultChecked=!!a),i!=null&&(e.checked=i&&typeof i!=`function`&&typeof i!=`symbol`),s!=null&&typeof s!=`function`&&typeof s!=`symbol`&&typeof s!=`boolean`?e.name=``+It(s):e.removeAttribute(`name`)}",
+      "{case`annotation-xml`:case`color-profile`:case`font-face`:case`font-face-src`:case`font-face-uri`:case`font-face-format`:case`font-face-name`:case`missing-glyph`:return!1;default:return!0}",
+      "{var i=r[ft]||null;if(!i)throw Error(a(90));Wt(r,i.value,i.defaultValue,i.defaultValue,i.checked,i.defaultChecked,i.type,i.name)}",
+      "{case`onClick`:case`onClickCapture`:case`onDoubleClick`:case`onDoubleClickCapture`:case`onMouseDown`:case`onMouseDownCapture`:case`onMouseMove`:case`onMouseMoveCapture`:case`onMouseUp`:case`onMouseUpCapture`:case`onMouseEnter`:(r=!r.disabled)||(e=e.type,r=!(e===`button`||e===`input`||e===`select`||e===`textarea`)),e=!r;break a;default:e=!1}",
+      "{if(yn)return yn;var e,t=vn,n=t.length,r,i=`value`in _n?_n.value:_n.textContent,a=i.length;for(e=0;e<n&&t[e]===i[e];e++);var o=n-e;for(r=1;r<=o&&t[n-r]===i[a-r];r++);return yn=i.slice(e,1<r?1-r:void 0)}",
+      "{Esc:`Escape`,Spacebar:` `,Left:`ArrowLeft`,Up:`ArrowUp`,Right:`ArrowRight`,Down:`ArrowDown`,Del:`Delete`,Win:`OS`,Menu:`ContextMenu`,Apps:`ContextMenu`,Scroll:`ScrollLock`,MozPrintableKey:`Unidentified`}",
+      "{case`compositionend`:return ir(t);case`keypress`:return t.which===32?(nr=!0,tr):null;case`textInput`:return e=t.data,e===tr&&nr?null:e;default:return null}",
+      "{color:!0,date:!0,datetime:!0,\"datetime-local\":!0,email:!0,month:!0,number:!0,password:!0,range:!0,search:!0,tel:!0,text:!0,time:!0,url:!0,week:!0}",
+      "{var t=e&&e.nodeName&&e.nodeName.toLowerCase();return t===`input`?!!cr[e.type]:t===`textarea`}",
+      "{var t=e&&e.nodeName&&e.nodeName.toLowerCase();return t&&(t===`input`&&(e.type===`text`||e.type===`search`||e.type===`tel`||e.type===`url`||e.type===`password`)||t===`textarea`||e.contentEditable===`true`)}",
+      "{lanes:t.lanes,firstContext:t.firstContext}",
+      "{lanes:t.lanes,firstContext:t.firstContext}",
+      "{throw Ki(xi(Error(a(418,1<arguments.length&&arguments[1]!==void 0&&arguments[1]?`text`:`HTML`,``)),e)),zi}",
+      "{case`dialog`:Q(`cancel`,t),Q(`close`,t);break;case`iframe`:case`object`:case`embed`:Q(`load`,t);break;case`video`:case`audio`:for(n=0;n<_d.length;n++)Q(_d[n],t);break;case`source`:Q(`error`,t);break;case`img`:case`image`:case`link`:Q(`error`,t),Q(`load`,t);break;case`details`:Q(`toggle`,t);break;case`input`:Q(`invalid`,t),Gt(t,r.value,r.defaultValue,r.checked,r.defaultChecked,r.type,r.name,!0);break;case`select`:Q(`invalid`,t);break;case`textarea`:Q(`invalid`,t),Yt(t,r.value,r.defaultValue,r.children)}",
+      "{if(!Er(e.context._currentValue,e.memoizedValue))return!0;e=e.next}"
+    ]
+  },
+  "AboutPage-CneqfSgq.js": {
+    "length": 211,
+    "links": [],
+    "sample_objects": []
+  },
+  "AdminBlog-dqI601PV.js": {
+    "length": 5073,
+    "links": [],
+    "sample_objects": [
+      "{\"Content-Type\":`text/plain`}",
+      "{\"Content-Type\":`text/plain`}",
+      "{name:t,value:n}",
+      "{className:`section-title`,children:`SODA CMS Portal`}",
+      "{type:`text`,name:`title`,value:s.title,onChange:h,placeholder:`e.g. 10 Tips for SSB Interview`,required:!0}",
+      "{type:`text`,name:`date`,value:s.date,onChange:h,required:!0}",
+      "{type:`url`,name:`imageUrl`,value:s.imageUrl,onChange:h,placeholder:`Paste image link here`}",
+      "{name:`excerpt`,value:s.excerpt,onChange:h,placeholder:`Brief summary for the list page...`,rows:`2`,required:!0}",
+      "{name:`content`,value:s.content,onChange:h,placeholder:`<h1>Header</h1> <p>Content...</p>`,rows:`10`,required:!0}",
+      "{color:`var(--color-text-dark)`,fontSize:`0.85rem`,background:`none`,border:`none`,cursor:`pointer`,textDecoration:`underline`}"
+    ]
+  },
+  "AFCATPage-QG7fB6mY.js": {
+    "length": 3409,
+    "links": [
+      "https://wa.me/918433247664"
+    ],
+    "sample_objects": [
+      "{children:`Comprehensive syllabus coverage including Verbal Ability, Numerical Ability, Reasoning, and General Awareness.`}",
+      "{children:`Graduates aspiring for prestigious officer roles (Flying and Ground Duty) in the Indian Air Force.`}"
+    ]
+  },
+  "BlogList-Dw7xZYq-.js": {
+    "length": 1756,
+    "links": [
+      "/blog/${e.slug&&e.slug.trim()||e.id}"
+    ],
+    "sample_objects": [
+      "{className:`section-title`,children:`Academy Blog`}",
+      "{src:e.imageurl||`https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800`,alt:e.title,className:`blog-image`}",
+      "{className:`blog-title`,children:e.title}"
+    ]
+  },
+  "BlogPost-DuKpRt8-.js": {
+    "length": 2919,
+    "links": [
+      "/blog",
+      "https://wa.me/918433247664"
+    ],
+    "sample_objects": [
+      "{paddingTop:`150px`,textAlign:`center`}",
+      "{children:[t.title,` | SODA Blog`]}",
+      "{children:t.title}",
+      "{paddingTop:`150px`,textAlign:`center`}"
+    ]
+  },
+  "book-open-BB-8wAUj.js": {
+    "length": 268,
+    "links": [],
+    "sample_objects": []
+  },
+  "brain-BywcX1BA.js": {
+    "length": 566,
+    "links": [],
+    "sample_objects": []
+  },
+  "CalculatorPage-B5e54LHc.js": {
+    "length": 4702,
+    "links": [],
+    "sample_objects": [
+      "{className:`section-title`,children:`Defence Age Calculator`}",
+      "{children:`Instantly check your eligibility for NDA, CDS, AFCAT, and CAPF based on your Date of Birth.`}",
+      "{exam:`NDA`,limits:`16.5 - 19.5 Years`,status:r.fractionalAge>=16.5&&r.fractionalAge<=19.5?`Eligible`:r.fractionalAge<16.5?`Underage`:`Overage`,total:6,attempts:r.fractionalAge<19.5?Math.min(6,Math.max(0,Math.floor((19.5-r.fractionalAge)*2))):0,desc:`Unmarried Male/Female. Total potential window: 3 Years.`}",
+      "{exam:`CDS (IMA/INA)`,limits:`19 - 24 Years`,status:r.fractionalAge>=19&&r.fractionalAge<=24?`Eligible`:r.fractionalAge<19?`Underage`:`Overage`,total:10,attempts:r.fractionalAge<24?Math.min(10,Math.max(0,Math.floor((24-r.fractionalAge)*2))):0,desc:`Unmarried. Total potential window: 5 Years.`}",
+      "{exam:`CDS (OTA)`,limits:`19 - 25 Years`,status:r.fractionalAge>=19&&r.fractionalAge<=25?`Eligible`:r.fractionalAge<19?`Underage`:`Overage`,total:12,attempts:r.fractionalAge<25?Math.min(12,Math.max(0,Math.floor((25-r.fractionalAge)*2))):0,desc:`Unmarried Men/Women. Total potential window: 6 Years.`}",
+      "{exam:`AFCAT (Flying)`,limits:`20 - 24 Years`,status:r.fractionalAge>=20&&r.fractionalAge<=24?`Eligible`:r.fractionalAge<20?`Underage`:`Overage`,total:8,attempts:r.fractionalAge<24?Math.min(8,Math.max(0,Math.floor((24-r.fractionalAge)*2))):0,desc:`Eligibility window: 4 Years.`}",
+      "{exam:`AFCAT (Ground Duty)`,limits:`20 - 26 Years`,status:r.fractionalAge>=20&&r.fractionalAge<=26?`Eligible`:r.fractionalAge<20?`Underage`:`Overage`,total:12,attempts:r.fractionalAge<26?Math.min(12,Math.max(0,Math.floor((26-r.fractionalAge)*2))):0,desc:`Tech & Non-Tech. Total potential window: 6 Years.`}",
+      "{className:`result-desc`,children:e.desc}"
+    ]
+  },
+  "calendar-eowFckGV.js": {
+    "length": 246,
+    "links": [],
+    "sample_objects": []
+  },
+  "CAPFPage-83cORDqA.js": {
+    "length": 2919,
+    "links": [
+      "https://wa.me/918433247664"
+    ],
+    "sample_objects": [
+      "{children:`In-depth coverage of General Ability, Intelligence, and General Studies with descriptive writing practice.`}",
+      "{children:`Understanding the unique roles of BSF, CRPF, CISF, ITBP, and SSB.`}"
+    ]
+  },
+  "CDSPage-CWyDbInZ.js": {
+    "length": 2955,
+    "links": [
+      "https://wa.me/918433247664"
+    ],
+    "sample_objects": []
+  },
+  "ContactPage-BGCbhP5b.js": {
+    "length": 6825,
+    "links": [
+      "https://wa.me/918433247664"
+    ],
+    "sample_objects": [
+      "{name:``,email:``,phone:``,course:``,message:``}",
+      "{...e,[n.target.name]:n.target.value}",
+      "{maxWidth:`600px`,margin:`0 auto`,textAlign:`center`,padding:`3rem 2rem`}",
+      "{color:`var(--color-text-dark)`,marginBottom:`2rem`,lineHeight:`1.6`}",
+      "{background:`transparent`,border:`none`,color:`var(--color-text-dark)`,cursor:`pointer`,fontSize:`0.9rem`}",
+      "{textAlign:`center`,marginBottom:`3rem`}",
+      "{className:`section-title`,children:`Get In Touch`}",
+      "{color:`var(--color-text-dark)`,maxWidth:`600px`,margin:`0 auto`}",
+      "{display:`inline-block`,width:`100%`,textAlign:`center`}",
+      "{name:``,email:``,phone:``,course:``,message:``}",
+      "{type:`text`,name:`name`,required:!0,className:`form-input`,placeholder:`Enter your name`,onChange:m}",
+      "{type:`email`,name:`email`,required:!0,className:`form-input`,placeholder:`Enter your email`,onChange:m}",
+      "{type:`tel`,name:`phone`,required:!0,className:`form-input`,placeholder:`Enter your phone`,onChange:m}",
+      "{name:`message`,className:`form-input`,placeholder:`How can we help you?`,onChange:m}"
+    ]
+  },
+  "CoursesPage-YntPz3mz.js": {
+    "length": 216,
+    "links": [],
+    "sample_objects": []
+  },
+  "CurrentAffairs-Uspvyo4y.js": {
+    "length": 4249,
+    "links": [],
+    "sample_objects": [
+      "{id:e.id||t.toString(),name:e.name,date:e.date||`Recently Updated`,viewUrl:e.viewUrl||e.url||`#`,downloadUrl:e.downloadUrl||e.url||`#`}",
+      "{type:`text`,placeholder:`Search by date or name...`,value:p,onChange:e=>m(e.target.value)}",
+      "{className:`info-text`,children:[`Showing `,v.length,` documents`]}",
+      "{children:_(e.name)}",
+      "{children:h.name}"
+    ]
+  },
+  "Disclaimer-CpQtSePm.js": {
+    "length": 878,
+    "links": [],
+    "sample_objects": []
+  },
+  "FoundationPage-_gCsYQrX.js": {
+    "length": 3223,
+    "links": [
+      "https://wa.me/918433247664"
+    ],
+    "sample_objects": []
+  },
+  "LegalPage-CWMEcVwf.js": {
+    "length": 399,
+    "links": [],
+    "sample_objects": [
+      "{title:e,children:t}",
+      "{className:`legal-title`,children:e}"
+    ]
+  },
+  "NDAPage-BSXyjXri.js": {
+    "length": 3210,
+    "links": [
+      "https://wa.me/918433247664"
+    ],
+    "sample_objects": []
+  },
+  "NotFound-Bay7046G.js": {
+    "length": 1372,
+    "links": [
+      "/"
+    ],
+    "sample_objects": []
+  },
+  "PrivacyPolicy-Dt8kkaO1.js": {
+    "length": 1265,
+    "links": [],
+    "sample_objects": []
+  },
+  "RefundPolicy-CcBXx8Zh.js": {
+    "length": 956,
+    "links": [],
+    "sample_objects": []
+  },
+  "SSBPage-B4UAM2ns.js": {
+    "length": 3155,
+    "links": [
+      "https://wa.me/918433247664"
+    ],
+    "sample_objects": []
+  },
+  "TermsAndConditions-D5Az5JUy.js": {
+    "length": 1717,
+    "links": [],
+    "sample_objects": [
+      "{children:`Admission is subject to eligibility and seat availability.`}",
+      "{children:`Access duration is limited to the period specified at enrollment.`}"
+    ]
+  },
+  "users-wdnaEZY8.js": {
+    "length": 295,
+    "links": [],
+    "sample_objects": []
+  }
+}

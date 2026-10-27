@@ -1,0 +1,1 @@
+import{n as e,t}from"./jsx-runtime-2UHhqg_S.js";import{r as n}from"./index-Bh0-lT-B.js";e();var r=t(),i=()=>(0,r.jsx)(`div`,{style:{paddingTop:`80px`,minHeight:`80vh`},children:(0,r.jsx)(n,{})});export{i as default};

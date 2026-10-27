@@ -22,7 +22,7 @@ export const SiteFooter: React.FC = () => {
             </div>
           </div>
           <a
-            href="https://sodaedu.in/"
+            href="/"
             target="_blank"
             rel="noreferrer"
             className="shrink-0 text-xs font-mono text-gold hover:text-gold-2 flex items-center space-x-1.5 px-3.5 py-2 border border-tactical-gold rounded bg-navy-1"
@@ -102,7 +102,7 @@ export const SiteFooter: React.FC = () => {
             <ul className="space-y-2.5 text-xs text-cream-3 font-mono">
               <li>
                 <a
-                  href="https://sodaedu.in/courses"
+                  href="/#programs"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-gold transition-colors flex items-center justify-between"
@@ -113,7 +113,7 @@ export const SiteFooter: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="https://sodaedu.in/courses"
+                  href="/#programs"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-gold transition-colors flex items-center justify-between"
@@ -124,7 +124,7 @@ export const SiteFooter: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="https://sodaedu.in/courses"
+                  href="/#programs"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-gold transition-colors flex items-center justify-between"
@@ -135,7 +135,7 @@ export const SiteFooter: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="https://sodaedu.in/courses"
+                  href="/#programs"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-gold transition-colors flex items-center justify-between"
@@ -202,7 +202,7 @@ export const SiteFooter: React.FC = () => {
         {/* Bottom Metadata & Copyright */}
         <div className="flex flex-col sm:flex-row justify-between items-center text-xs font-mono text-cream-4 space-y-3 sm:space-y-0">
           <div>
-            <span>© 2026 Sabre Officers Defense Academy (SODA). Integrated with <a href="https://sodaedu.in/" className="text-gold hover:underline">sodaedu.in</a>.</span>
+            <span>© 2026 Sabre Officers Defense Academy (SODA). Integrated with <a href="/" className="text-gold hover:underline">sodaedu.in</a>.</span>
           </div>
           <div className="flex items-center space-x-4">
             <span>GWL // 26°13'N 78°10'E</span>

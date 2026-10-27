@@ -40,7 +40,7 @@ export const SiteHeader: React.FC = () => {
           </div>
           <div className="flex items-center space-x-4">
             <a
-              href="https://sodaedu.in/"
+              href="/"
               target="_blank"
               rel="noreferrer"
               className="hidden sm:inline-flex items-center space-x-1 text-gold hover:text-gold-2 transition-colors"
@@ -139,7 +139,7 @@ export const SiteHeader: React.FC = () => {
           {/* Right Action Buttons */}
           <div className="hidden lg:flex items-center space-x-3">
             <a
-              href="https://sodaedu.in/"
+              href="/"
               target="_blank"
               rel="noreferrer"
               className="text-xs font-mono text-ink-2 hover:text-ink flex items-center space-x-1 px-3 py-2 rounded border border-tactical"
@@ -220,7 +220,7 @@ export const SiteHeader: React.FC = () => {
                 <ArrowUpRight size={16} />
               </Link>
               <a
-                href="https://sodaedu.in/"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
                 className="w-full flex items-center justify-center space-x-2 text-xs font-mono text-ink-2 py-2"

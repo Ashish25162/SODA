@@ -1,144 +1,86 @@
-# Sabre Officers Defense Academy (SODA) — Cadet Command & Testing Portal
+# Sabre Officers Defense Academy (SODA) — Redesigned Web Portal
 
-> **Official Cadet Assessment & Training Platform integrated with [sodaedu.in](https://sodaedu.in/)**  
-> **Headquarters:** 106, MLB Colony, Padav, Lashkar, Gwalior MP – 474002 (`GWL // 26°13'N 78°10'E`)  
-> **Chief Mentor:** Lt. Arjit M. Bharadwaj (Ex-Army Officer, NDA & IMA Alumnus)
+Modern, clean, institutional, and high-converting web platform redesigned for **Sabre Officers Defense Academy (SODA)** (`sodaedu.in`), Gwalior, Madhya Pradesh.
 
 ---
 
-## 🎖️ Overview
+## 🏛️ Architectural Highlights & Features
 
-**SODA (Sabre Officers Defense Academy)** is an institutional military editorial web application designed for defence aspirants preparing for the **Services Selection Board (SSB)** Stage 1 Screening and Stage 2 Psychological Evaluations (NDA, CDS, AFCAT, OTA, INET, and CAPF).
+### 1. Modern Institutional EdTech Design System
+- **Color Discipline (60-30-10 Rule):**
+  - **60% Primary Background:** Crisp Alabaster (`#F8FAFC`) and Pure White (`#FFFFFF`).
+  - **30% Dark Brand Surface:** Deep Naval Obsidian (`#0A192F`) & Slate (`#0F172A`).
+  - **10% Officer Accent & CTAs:** Officer’s Brass Gold (`#D97706` / hover: `#B45309`).
+  - **Tri-Service Badges:**
+    - **Army:** `#ECFCCB` bg, `#3F6212` text, `#BEF264` border.
+    - **Navy:** `#DBEAFE` bg, `#1E40AF` text, `#93C5FD` border.
+    - **Air Force:** `#E0F2FE` bg, `#0369A1` text, `#7DD3FC` border.
+    - **SSB / Mentorship:** `#FEF3C7` bg, `#92400E` text, `#FDE68A` border.
+- **Typography:** `Plus Jakarta Sans` for bold military headings, `Inter` for clean body typography.
 
-The platform transforms defence preparation into an officer-grade training chamber featuring:
-- **Cadet Authentication & Enrollment Portal**: Seamless sign-in and registration workflow with assigned Cadet Codes (e.g., `SODA-2601`).
-- **Cadet Training Dashboard**: Personalized candidate dossier, real-time Stage 1 screening readiness index, and live assessment telemetry.
-- **Interactive Student Profile Editor**: Manage target defence entry, academic qualification, SSB experience, and contact details with instant local synchronization.
-- **CSSS Cognitive Battery (70 Questions)**: 5 timed sections testing verbal logic, SVG spatial rotation diagrams, 900ms visual flash recall drills, auditory discrimination (Web Speech API), and OIR speed sprints.
-- **OPAM Officer Personality Matrix (120 Items)**: Time-compressed (15s/item) non-rehearsed situational and self-description matrix evaluating the **15 Officer Like Qualities (OLQ)** across 4 Core Factors.
-- **Admin Management Console (`/admin`)**: Academy telemetry, candidate roster, test/question bank management, and CSV exports.
-- **Field Assets**: Written practice drills, daily military signal briefs, SOP field manuals, and Chief Mentor dispatches.
+### 2. High-Conversion 2-Column Split Hero (Replaced Slow Carousels)
+- **Left Column:**
+  - Trust Pill: `⚓ Mentored by Former Indian Navy Officer Lt. Arjit Mohan Bharadwaj`.
+  - H1: *"Forge Your Path to Command in the Indian Armed Forces."*
+  - Subtitle: Clear positioning for NDA, CDS, AFCAT, CAPF, and SSB.
+  - Interactive Goal Selector (Pills): Immediately filters the 6 programs below based on candidate stage.
+  - Primary & Secondary CTAs + Bottom Trust Bar (4.9★ Google Rating, 1-on-1 Mentorship, Tri-Service).
+- **Right Column:**
+  - Mentor showcase card featuring Lt. Arjit Mohan Bharadwaj (Former Officer, Indian Navy).
+  - Tri-Service insignia pills (`Indian Army`, `Indian Navy`, `Indian Air Force`).
+  - Floating glassmorphic trust badges (`Focus on 15 OLQs`, `Dedicated GTO Ground`).
 
----
+### 3. Decision Course Cards (6 Programs)
+Filterable grid (`All Programs`, `After 10th/12th`, `Graduate Entries`, `SSB Interview`) with structured metadata badges:
+1. **NDA Coaching** (Class 12th Appearing / Pass)
+2. **CDS Coaching** (Graduates / Final Year)
+3. **AFCAT Coaching** (Indian Air Force Wings)
+4. **CAPF (AC) Coaching** (Assistant Commandant)
+5. **SSB Interview Program** (5-Day Testing & Dossier Review)
+6. **Foundation Course** (11th & 12th Integrated)
 
-## 🎨 Design Philosophy & Aesthetic Identity
+*Actions:* "View Syllabus" (opens clean blueprint modal) & "Enquire Now" (opens counseling modal).
 
-The portal implements an **Institutional Military Editorial** design system:
-- **Parchment & Editorial Canvas**: Antique Alabaster & Bone Cream (`#F4EFE6`, `#FAF6EE`) conveying official gazette and commission records.
-- **Deep Naval Anchors**: Heavy naval obsidian (`#08122A`, `#0A1428`) providing officer-grade authority and contrast.
-- **Tri-Service Accentuation**:
-  - *Indian Navy*: Deep Admiralty Ink (`#0A1428`)
-  - *Indian Army*: Service Olive Drab (`#5A7048`)
-  - *Officer Commission*: Brushed Brass Gold (`#C9A961`)
-- **Universal Regular Sans-Serif Typography**: Clean, authoritative, modern sans-serif (`Inter Tight` / `Inter`) throughout headings, body copy, and UI controls for maximum clarity and readability.
+### 4. Interactive Defense Age & Eligibility Checker (Lead Magnet)
+- Real-time calculation of candidate age in years & months from DOB.
+- Instant green eligibility status for NDA, CDS, AFCAT, CAPF, and Foundation.
+- Direct CTA: *"Get Personalized Study Plan for Your Eligible Exams"* pre-filling the counseling desk.
 
----
+### 5. Mentor Spotlight & 5-Day SSB Bento Grid
+- **"Building Future Officers. Guided by Real Service Experience."**
+- **Card 1 (Featured Navy Deep Blue):** Philosophy statement avoiding rote answers, 3 key pillars.
+- **Card 2:** Stage I & Psychological Battery (OIR, PPDT, TAT, WAT, SRT, SDT).
+- **Card 3:** Outdoor GTO Ground Training (PGT, HGT, Obstacles in Gwalior).
+- **Card 4:** Personal Interview & Board Conference (1-on-1 interview with Lt. Arjit Mohan Bharadwaj).
 
-## 🚀 Key Functional Modules
+### 6. Verified Google Student Experiences
+- 8 real verified student reviews from Gwalior candidates (Arun Pratap Singh, Abhinav Singh, Tanishq Kushwah, Anjali Rajawat, Rahul Sharma, Yuvraj Singh, Shivam Singh, Mayank Singh Tomar).
+- Exam filter pills: `All Reviews`, `SSB Candidates`, `NDA`, `CDS`, `AFCAT`.
 
-### 1. Cadet Authentication & Enrollment Gate (`/` or `/login`)
-- Supports verified 1-click logins for demonstration cadets:
-  - `Arun Pratap Singh` (`SODA-2601` · CDS / IMA Dehradun)
-  - `Abhinav Singh` (`SODA-2602` · NDA 11th/12th Foundation)
-  - `Tanishq Kushwah` (`SODA-2603` · AFCAT Flying Branch)
-- New cadet registration form capturing full profile dossier (Name, Email, Mobile, Target Entry, Education Level, Prior SSB Board Exposure, Location).
-- Automatic cadet ID provisioning and session persistence.
+### 7. Latest Defense Insights & Bug Fix
+- **CRITICAL BUG FIXED:** Resolved the "Invalid Date" bug from the previous website using `formatDateSafe` with fallback validation.
+- 3 complete article cards with full read-modal support.
 
-### 2. Cadet Command Dashboard (`/` or `/dashboard`)
-- **Student Profile Dossier Card**: Displays cadet avatar, full name, code, contact details, target entry, and academic status.
-- **Profile Modal Editor**: Cadets can update their personal details at any time.
-- **Dossier Transcript Export**: Downloadable official `.txt` candidate record.
-- **4 Real-Time Telemetry Gauges**:
-  1. *Stage 1 Clearance Readiness Index*
-  2. *CSSS Cognitive Speed Quotient*
-  3. *OPAM 15 OLQ Factor Endorsement*
-  4. *Field Drills Completed Tally*
-- **Assessment History Table**: Chronological log of past test scores, percentages, and performance bands.
-- **Integrated Sub-Navigation**: Quick switching between Command Overview, Student Profile Dossier, CSSS Battery, OPAM Matrix, Assessment Logs, Written Drills, Signal Briefs, SOP Manuals, and Chief Mentor Desk.
-
-### 3. CSSS Cognitive Battery (70 Questions across 5 Sections)
-- Section 1: **Verbal Logic & Analogies** (15 Questions)
-- Section 2: **Spatial & Pattern Reasoning** (15 Questions with interactive SVG diagram generator)
-- Section 3: **Working Memory & Flash Recall** (15 Questions with 900ms visual flash stimulus)
-- Section 4: **Auditory Discrimination & Recall** (10 Questions utilizing Web Speech API speech synthesis)
-- Section 5: **OIR Speed Sprint** (15 Questions under strict time constraints)
-- Comprehensive performance debrief with section breakdown and Stage 1 screening clearance probability.
-
-### 4. OPAM Officer Personality Matrix (120 Items)
-- **15-Second Soft Timer** per prompt to capture subconscious, authentic reactions.
-- **Irreversible Forward Flow** (No back navigation or answer modification).
-- Profiles all **15 Officer Like Qualities (OLQ)**:
-  - *Factor I (Planning & Organizing)*: Effective Intelligence, Reasoning Ability, Organizing Ability, Power of Expression.
-  - *Factor II (Social Adjustment)*: Social Adaptability, Cooperation, Sense of Responsibility.
-  - *Factor III (Social Effectiveness)*: Initiative, Self Confidence, Speed of Decision, Ability to Influence Group, Liveliness.
-  - *Factor IV (Dynamic)*: Determination, Courage, Stamina.
-- Comprehensive debrief featuring radar visualization, Top 3 strengths, and Bottom 3 growth recommendations.
-
-### 5. Academy Admin Console (`/admin`)
-- Accessible via `/admin` or `/admin/dashboard` (Default access PIN: `soda2026`).
-- Real-time candidate registration telemetry and assessment completion metrics.
-- Candidate directory with student details, defence entries, and CSV export (`soda-cadets-register.csv`).
-- Test catalogue and Question Bank CRUD controls.
+### 8. Institutional Footer & Counseling Modal
+- 4-column structured footer with address in Padav Gwalior, phone numbers, WhatsApp, Play Store app link, and legal policy modals.
+- Interactive admissions form with direct WhatsApp API routing (`+91 84332 47664`) and Google Apps Script background integration.
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack & Commands
 
-- **Frontend**: React 18, TypeScript
-- **Styling**: Tailwind CSS v3, PostCSS, Autoprefixer
-- **Routing**: Wouter (lightweight declarative routing)
-- **Icons**: Lucide React
-- **Audio Synthesis**: Native Web Speech API (`speechSynthesis`)
-- **Visuals**: SVG Vector Diagram Renderer, Canvas Confetti
-- **Storage**: Browser LocalStorage engine with automatic seed profiles and CSV export
-- **Bundler & Tooling**: Vite 8, Node.js
+- **Framework:** React 18, Vite
+- **Styling:** Tailwind CSS, PostCSS, Autoprefixer
+- **Icons:** `lucide-react`
+- **Fonts:** Plus Jakarta Sans, Inter
 
----
-
-## 💻 Getting Started
-
-### Prerequisites
-- Node.js (v18 or higher recommended)
-- npm or yarn
-
-### Installation & Run
-
+### Development:
 ```bash
-# Clone the repository
-git clone https://github.com/Ashish25162/SODA.git
-
-# Navigate into the project directory
-cd SODA
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
+npm.cmd run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Building for Production
-
+### Production Build:
 ```bash
-# Build production bundle
-npm run build
-
-# Preview production build locally
-npm run preview
+npm.cmd run build
 ```
-
----
-
-## 🏛️ SODA Academy Campus
-
-- **Campus Address**: 106, MLB Colony, Padav, Lashkar, Gwalior, Madhya Pradesh – 474002
-- **Helpline**: +91 90098 29888 / +91 84332 47664
-- **Official Website**: [https://sodaedu.in/](https://sodaedu.in/)
-
----
-
-## 📄 License
-
-This project is licensed under the [GNU Affero General Public License v3.0](LICENSE).
+Production output is located in `dist/`.
